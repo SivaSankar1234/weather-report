@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main-container{
+    
+    font-family: "Poppins", sans-serif;
+    /* background-image: linear-gradient(to right top, #f1f2b5, #aacb9c, #6da288, #3b7972, #135058); */
+    background-color: #E4FFFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+    
+    
+}
+
+input{
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+input:focus{
+    outline: none;
+}
+
+nav {
+
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 10vh;
+  
+    background-color: teal;
+  
+    font-family: "Montserrat", sans-serif;
+  
+  }
+  
+
+  .heading {
+
+    color: white;
+  
+    text-transform: uppercase;
+  
+    letter-spacing: 5px;
+  
+    font-size: 20px;
+  
+  }
+  
+  .nav-links {
+
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+  
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+  }
+  
+  /* .nav-links a:hover:not(.active) {
+  
+    background-color: lightseagreen;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: #4caf50;
+  
+  } */
+  
+    
+
+
+
+.weather-container{
+    background-image: linear-gradient(to right top, #b7f3ee, #9beaea, #7be1e9, #56d7e9, #12cdeb);
+    border-radius: 25px;
+    padding:10px;
+    text-align: center;
+    
+}
+
+
+.weather{
+    text-align: center;
+    font-size: 2rem ;
+}
+
+.weather h2{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.weather-img{
+    display: inline-block;
+}
+
